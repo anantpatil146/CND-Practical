@@ -1,8 +1,9 @@
-echo 'version: 0.2
+version: 0.2
+
 phases:
   install:
     commands:
-      - echo Installing dependencies...
+      - echo Installing...
   build:
     commands:
       - echo Building project...
@@ -10,4 +11,4 @@ artifacts:
   files:
     - appspec.yml
     - scripts/*
-    - app/**/*' > buildspec.yml
+    - app/**/*  

@@ -1,4 +1,4 @@
-echo 'version: 0.0
+version: 0.0
 os: linux
 files:
   - source: app/
@@ -15,4 +15,4 @@ hooks:
   ApplicationStart:
     - location: scripts/start_server.sh
       timeout: 180
-      runas: root' > appspec.yml
+      runas: root
